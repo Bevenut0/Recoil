@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif', maxWidth: '400px' }}>
-      <h2>Lista de Tarefas (Recoil)</h2>
+      <h2>Lista de Tarefas</h2>
       <TodoItemCreator />
       <TodoListFilters />
 
