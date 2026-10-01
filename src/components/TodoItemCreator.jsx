@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSetRecoilState } from 'recoil';
-import { todoListState } from './atoms/todoListAtom';
+import { todoListState } from '../atoms/todoListAtom';
 
 export function TodoItemCreator() {
   const [inputValue, setInputValue] = useState('');
